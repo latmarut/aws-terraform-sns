@@ -2,22 +2,9 @@ repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.0.1
     hooks:
-    -   id: trailing-whitespace
-    -   id: end-of-file-fixer
-    -   id: check-yaml
-    -   id: check-json
-    -   id: check-xml
-    -   id: check-added-large-files
-    -   id: check-case-conflict
-    -   id: check-byte-order-marker
-    -   id: check-executables-have-shebangs
-    -   id: check-merge-conflict
-    -   id: check-symlinks
-    -   id: check-docstring-first
-    -   id: check-toml
-    -   id: check-xml-declaration
-    -   id: check-merge-conflict
-    -   id: check-symlinks
-    -   id: check-docstring-first
-    -   id: check-toml
-    -   id: check-xml-declaration
+    -   id: terraform_fmt
+    -   id: terraform_docs
+    -   id: terraform_tflint
+    -   id: terraform_validate
+    -   id: terraform_tfsec
+    files: '\.tf$'
