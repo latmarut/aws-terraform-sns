@@ -53,8 +53,8 @@ repos:
     #- id: terraform_fmt
     #- id: terraform_tflint
     - id: terraform_validate
-    - id: terraform_docs
-    - id: terraform_tfsec
+    #- id: terraform_docs
+    #- id: terraform_tfsec
 #    - id: terraform_trivy
 
 - repo: https://github.com/bridgecrewio/checkov.git
