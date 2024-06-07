@@ -42,11 +42,11 @@ repos:
     -   id: mypy
         additional_dependencies: [types-all]
         exclude: ^testing/resources/
-- repo: https://github.com/terraform-docs/terraform-docs
-  rev: "v0.17.0"
-  hooks:
-    - id: terraform-docs-go
-      args: ["--output-file", "TFDOC.md"]
+#- repo: https://github.com/terraform-docs/terraform-docs
+ # rev: "v0.17.0"
+ # hooks:
+   # - id: terraform-docs-go
+    #  args: ["--output-file", "TFDOC.md"]
 - repo: https://github.com/antonbabenko/pre-commit-terraform
   rev: "v1.89.0"
   hooks:
